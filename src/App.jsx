@@ -1,3 +1,20 @@
+import { Post } from "./Post";
+import { Header } from "./components/Header";
+
+import "./styles.css";
+import styles from "./App.module.css";
+import { Sidebar } from "./components/Sidebar";
+
 export function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <Header />
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+          <Post author="Lucas" content="conteudo" />
+        </main>
+      </div>
+    </div>
+  );
 }

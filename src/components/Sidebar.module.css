@@ -1,0 +1,74 @@
+.sidebar {
+  background-color: var(--gray-8);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cover {
+  width: 100%;
+  height: 72px;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.profile img {
+  box-sizing: initial;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 4px solid var(--gray-8);
+  outline: 2px solid var(--blue-1);
+}
+
+.profile .name {
+  margin-top: 1rem;
+  color: var(--gray-1);
+  line-height: 1.6;
+}
+
+.profile .role {
+  font-size: 0.875rem;
+  color: var(--gray-4);
+  line-height: 1.6;
+}
+
+.sidebar footer {
+  border-top: 1px solid var(--gray-6);
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar footer a {
+  width: 100%;
+  height: 50px;
+  display: block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: transparent;
+  color: var(--blue-1);
+
+  border: 1px solid var(--blue-1);
+  border-radius: 8px;
+  padding: 0 1.5rem;
+  font-weight: bold;
+
+  text-decoration: none;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.sidebar footer a:hover{
+  color: white;
+  background-color: var(--blue-2);
+  cursor: pointer;
+}

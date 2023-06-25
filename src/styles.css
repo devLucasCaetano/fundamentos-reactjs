@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --gray-1: #e1e1e6;
+  --gray-3: #c4c4cc;
+  --gray-4: #8d8d99;
+  --gray-6: #323238;
+  --gray-7: #29292e;
+  --gray-8: #202024;
+  --gray-9: #121214;
+
+  --blue-1: #053768;
+  --blue-2: #3d5a91;
+  --blue-3: #347fc7;
+
+  --red-1: #c11f1f;
+}
+
+body {
+  background-color: var(--gray-9);
+  color: var(--gray-3);
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
