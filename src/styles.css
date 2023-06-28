@@ -7,6 +7,7 @@
   --gray-1: #e1e1e6;
   --gray-3: #c4c4cc;
   --gray-4: #8d8d99;
+  --gray-5: #6e6e7a;
   --gray-6: #323238;
   --gray-7: #29292e;
   --gray-8: #202024;
@@ -17,9 +18,11 @@
   --blue-3: #347fc7;
 
   --red-1: #c11f1f;
+  --red-2: #ee5b4a;
+  --red-3: #c0392b;
 }
 
-:focus{
+:focus {
   outline: none;
   box-shadow: 0 0 0 2px var(--blue-3);
 }
@@ -31,8 +34,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-  font-family: 'Roboto', sans-serif;
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
