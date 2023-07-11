@@ -1,3 +1,4 @@
+import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -42,9 +43,15 @@ export function Post() {
             placeholder="deixe um comentário"
             name="comment"
           />
-
-          <button type="submit">Enviar</button>
+          <footer>
+            <button type="submit">Enviar</button>
+          </footer>
         </form>
+
+        <div className={styles.commentList}>
+          <Comment />
+          <Comment />
+        </div>
       </article>
     </div>
   );
