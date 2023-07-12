@@ -1,0 +1,13 @@
+.avatar > img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.avatarWithBorder > img {
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 50%;
+  border: 4px solid var(--gray-8);
+  outline: 2px solid var(--blue-1);
+}
